@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DELETION FORM</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+<div class="container">
+	
+	<h1>FOOD APP DELETION FORM</h1>
+
+
+		<div class="form-group">
+		  <label >Your registered email adress:</label>
+    <input type="text" id="email" class="form-control" placeholder="email adress...">
+    <br><br>
+    <label >Your full name:</label>
+    <input type="text" id="f_name" class="form-control" placeholder="Name..">
+    <br><br>
+    <label>Are you sure you want to delete your account?:</label>
+    <br><br>
+    <input type="radio" id="html" name="rb" value="YES">
+<label for="html">YES</label><br>
+
+<input type="radio" id="html1" name="rb" value="NO">
+<label for="html1">NO</label><br>
+
+		</div>
+
+		<button class="btn btn-success" onclick="addUser()" >SUBMIT FORM</button>
+
+</div>
+
+</body>
+</html>
